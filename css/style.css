@@ -1,0 +1,46 @@
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+ul {
+    display: flex;
+}
+
+.sub-list {
+    display: none;
+}
+
+.extra-sub-list {
+    display: none;
+}
+
+
+.list-link:hover + .sub-list {
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 91px;
+}
+
+.sub-list:hover {
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 91px;
+}
+
+.sub-list_link:hover + .extra-sub-list {
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 160px;
+}
+
+.extra-sub-list:hover {
+    display: block;
+    position: absolute;
+    top: 64px;
+    left: 160px;
+}

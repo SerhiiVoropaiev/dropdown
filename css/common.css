@@ -1,0 +1,51 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #191919;
+}
+
+a:hover {
+    background-color: rgba(84, 106, 126, 0.3);
+
+}
+
+:hover {
+    transition: all 0.5s;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.line {
+    height: 2px;
+    background-color: skyblue;
+}
+
+a {
+    display: block;
+    padding: 24px;
+}
+
+.list:hover {
+    background-color: skyblue;
+
+}
+
+.sub-list {
+    background-color: skyblue;
+    width: 160px;
+}
+
+.extra-sub-list {
+    width: 200px;
+    background-color: skyblue;
+}
+
+.list2 > li > a:hover {
+    background-color: skyblue;
+}
